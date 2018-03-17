@@ -1,0 +1,126 @@
+/*html*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*body*/
+body{
+font-family: 'Acme', sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Indie Flower', cursive;
+
+}
+/*navbar*/
+.brand{
+  font-size: 22px;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Amaranth', sans-serif;
+  font-family: 'Kalam', cursive;
+}
+
+/*card-image*/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+      padding: 1px;
+      border: 1px solid black;
+      width:154px;
+      margin: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img{
+border-radius: 5px 5px 5px 5px;
+}
+.card-title{
+  font-family: 'Itim', cursive;
+}
+
+/*create-buttons*/
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-danger{
+
+  width: 100%;
+}
+
+/*inc.status*/
+#status_course_stu{
+  text-align: center;
+}
+
+#status_admin{
+    text-align: center;
+}
+
+.status_inc{
+  font-size: 30px;
+}
+
+.status_num{
+  font-size: 20px;
+}
+
+
+/*side-card*/
+h3{
+  text-align: center;
+}
+
+.panel {
+  margin-bottom: 22px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#details_container{
+  margin-top:65px;
+}
+
+.badge-primary{
+  font-size: 30px;
+}
+.badge_color{
+  background-color:blue;
+}
+
+.edit_btn{
+  float: right;
+}
+
+.delete_btn{
+float: left;
+}
